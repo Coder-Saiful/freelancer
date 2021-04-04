@@ -1,0 +1,395 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+/*Typography end*/
+
+/*Menu part css start*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #263742;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin-right: 27px;
+}
+
+.header_social_icon a {
+    color: #fa5c65;
+    margin-right: 20px;
+}
+
+.header_social_icon a:last-child {
+    margin-right: 0;
+}
+
+.navbar-brand h2 {
+    background: #fa5c65;
+    color: white;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    padding: 33px 13px 11px 13px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-brand h2 span {
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 22px 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.menu_bg {
+    background: #f1f1f1;
+}
+
+.openNav {
+    color: black !important;
+    font-size: 22px;
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    padding-top: 30px;
+    display: none;
+}
+
+.closeNav {
+    color: black !important;
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+.overlay_content ul li a {
+    border-top: 1px solid #E5E5E5;
+    margin-right: 0 !important;
+    padding: 10px 25px !important;
+}
+
+.last_mobile_menu_item {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.overlay_content {
+    padding-top: 60px;
+}
+
+/*Menu part css end*/
+
+/*Banner part css start*/
+
+#banner_part {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#banner_part:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/banner_bg.jpg) no-repeat;
+    top: 0;
+    left: 0;
+    -webkit-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+    opacity: 0.9;
+}
+
+.banner_text {
+    padding-top: 379px;
+    padding-bottom: 382px;
+}
+
+.banner_text h2 {
+    color: #314a5b;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.banner_text h2 span,
+.service_text h2 span,
+.portfolio_text h2 span,
+.team_head h2 span {
+    color: #fa5c65;
+}
+
+.banner_text p {
+    font-family: 'Open Sans', sans-serif;
+    color: #314a5b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 37px;
+}
+
+.banner_text a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: #fa5c65;
+    display: inline-block;
+    padding: 18px 37px;
+    border-radius: 8px;
+    border: 2px solid #fa5c65;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.banner_text a:hover {
+    color: #fa5c65;
+    background: transparent;
+}
+
+/*Banner part css end*/
+
+/*Service part css start*/
+
+#service_part {
+    padding-top: 70px;
+}
+
+.service_text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #314a5b;
+    margin-bottom: -5px;
+}
+
+.service_text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9aa0ab;
+    padding-right: 78px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service_text a,
+.portfolio_text a,
+.more_team_member a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fa5c65;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.service_text a i,
+.portfolio_text a i,
+.more_team_member a i {
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.service_text a:hover,
+.portfolio_text a:hover,
+.more_team_member a:hover {
+    color: #314a5b;
+}
+
+/*Service part css end*/
+
+/*Portfolio part css start*/
+
+#portfolio_part {
+    padding-top: 100px;
+}
+
+.portfolio_text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #314a5b;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.portfolio_text h5 {
+    color: #314a5b;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 24px;
+}
+
+.portfolio_text p {
+    color: #9aa0ab;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/*Portfolio part css end*/
+
+/*Team part css start*/
+
+#team_part {
+    padding-bottom: 55px;
+}
+
+.team_head h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #314a5b;
+    margin-bottom: 5px;
+}
+
+.team_head p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9aa0ab;
+    margin-bottom: 40px;
+}
+
+.team_info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #314a5b;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.team_info h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f0454c;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.team_info p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9aa0ab;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 41px;
+    margin-bottom: 0;
+}
+
+.more_team_member a {
+    margin-top: 50px;
+}
+
+/*Team part css end*/
+
+/*Footer part css start*/
+
+.footer_content {
+    border-top: 1px solid #E6EAED;
+    padding: 32px 0;
+}
+
+.footer_social_icon a {
+    color: #B9BFC5;
+    font-size: 18px;
+    margin-right: 18px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.footer_social_icon a:last-child {
+    margin-right: 0;
+}
+
+.footer_social_icon a:hover {
+    color: #f0454c;
+}
+
+.footer_copywrite_text p {
+    font-family: 'Open Sans', sans-serif;
+    color: #b9c0c6;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/*Footer part css end*/
+
+/*Scroll to top css start*/
+
+.scroll_to_top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FA5C65;
+    color: #FA5C65;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.scroll_to_top:hover {
+    background: #FA5C65;
+    color: white;
+}
+
+/*Scroll to top css end*/
